@@ -1,0 +1,10 @@
+.topleft{
+    width: 155px;
+    height: 49px;
+    flex-shrink: 0;
+    margin-left: 47px;
+    margin-top: 7px;
+}
+.toprigth{
+    width: 100px;
+}
