@@ -258,3 +258,51 @@
 .aspas{
     letter-spacing: -5px;
 }
+.textopart4{
+    margin-top: 73px;
+    margin-left: 97px;
+}
+.textopart4 p{
+    margin-top: 34px;
+    color: #231D1E;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 103.4%; /* 20.68px */
+    letter-spacing: 1px;
+    width: 593px;
+    height: 103px;
+    flex-shrink: 0;
+}
+.titulopart4{
+    font-weight: bold;
+    color: #231D1E;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 103.4%; /* 36.19px */
+    letter-spacing: 1.75px;
+    width: 553px;
+}
+.tiposprodutosimg{
+    margin-left: 590px;
+    margin-top: -190px;
+}
+.basesaibamais{
+    margin-top: -65px;
+    width: 163px;
+    height: 44px;
+    flex-shrink: 0;
+    border-radius: 147px;
+    background: #198BAF;
+}
+.saibamais{
+    text-align: center;
+    width: 114px;
+    color: #F9F9F9;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 103.4%; /* 20.68px */
+    letter-spacing: 1px;
+}
