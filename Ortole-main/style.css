@@ -142,8 +142,11 @@ h2 {
 }
 
 .citacao {
-    margin-top: 40px;
-    background-color: #064a61;
+    margin-top: 45px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(Imagens/backgroudcomlogos.jpg);
+    height: 266px;
 }
 
     .citacao h2 {
@@ -177,13 +180,16 @@ h2 {
 .aspas {
     letter-spacing: -5px;
 }
+.carouselTipoProduto{
+    margin-top: 71px;
+}
 
 .tipoproduto {
     margin-top: 40px;
     height: 320px;
     background-position: right;
     background-repeat: no-repeat;
-    background-image: url('Imagens/tiposprodutos.jpg');
+    background-image: url(Imagens/tiposprodutos.jpg);
 }
 
     .tipoproduto p {
@@ -239,10 +245,21 @@ h2 {
 
     .detalheTipoProduto p {
         color: white;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
     }
 
     .detalheTipoProduto ul {
         color: white;
+        list-style-type: none;
+        list-style-image: url('imagens/logoBranco.png');
+    }
+
+    .detalheTipoProduto ul li {
+        margin-bottom: 10px;
+        padding-left: 6px;
     }
 
 #carouselTutor {
@@ -253,13 +270,13 @@ h2 {
 
 .feedback {
     margin-top: 40px;
-    background-color: #064a61;
+    position: relative;
 }
 
     .feedback h2 {
         margin-top: 40px;
         color: #FFF;
-        text-align: center;
+        text-align: left;
         font-size: 29px;
         font-style: normal;
         font-weight: 500;
@@ -277,6 +294,21 @@ h2 {
         font-weight: 600;
         line-height: 103.4%; /* 15.51px */
         letter-spacing: 0.75px;
+    }
+
+    .containerfeedback {
+        position: relative;
+    }
+
+    section.container-fluid.feedback:before {
+        content: "";
+        width: 50%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: #064a61;
+        border-radius: 0 100px 100px 0;
     }
 
 .feedback-detalhes {
@@ -328,11 +360,11 @@ h2 {
     }
 
     .footer h3 {
-        color: #FFF;
+        color: #4ABEE2;
         text-align: left;
         font-size: 20px;
         font-style: normal;
-        font-weight: 500;
+        font-weight: 550;
         line-height: 103.4%; /* 29.986px */
         letter-spacing: 1.45px;
     }
