@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz@8..144&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wght@8..144,500&display=swap');
 
 * {
     font-family: 'Roboto Serif', serif;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&family=Roboto+Serif:opsz,wght@8..144,500&display=swap');
 
 h2 {
     font-weight: bold;
@@ -13,7 +13,7 @@ h2 {
     font-style: normal;
     font-weight: 600;
     line-height: 103.4%; /* 36.19px */
-    letter-spacing: 1.75px;
+    letter-spacing: 1.00px;
 }
 
 .topleft {
@@ -57,7 +57,9 @@ h2 {
         font-style: normal;
         font-weight: 600;
         line-height: 103.4%; /* 46.53px */
-        letter-spacing: 2.25px;
+        letter-spacing: 3.50px;
+        color: #FFF;
+
     }
 
     .banner-home p {
@@ -65,8 +67,8 @@ h2 {
         font-size: 20px;
         font-style: normal;
         font-weight: 400;
-        line-height: 103.4%; /* 20.68px */
         letter-spacing: 1px;
+        color: #FFF;
     }
 
     .banner-home a {
@@ -77,13 +79,32 @@ h2 {
         background: #198BAF;
         font-size: 20px;
         font-style: normal;
-        font-weight: 400;
+        font-weight: 300;
         letter-spacing: 1px;
         text-align: center;
+        line-height: 103.4%; 
+        padding-top: 5px;
+        text-decoration: none;
     }
 
 .porqueescolhem {
-    margin-top: 50px;
+    margin-top: 67px;
+}
+
+    .porqueescolhem h2{
+        margin-bottom: 19px;
+        color: #231D1E;
+        font-size: 35px;
+        font-style: normal;
+        font-weight: 600;
+        letter-spacing: 1.75px;
+    }
+
+.porissoescolhem{
+    color: #231D1E;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
 }
 
 .box {
@@ -93,6 +114,9 @@ h2 {
     border-radius: 10px;
     background: #F9F9F9;
     box-shadow: 0px 4px 11px 0px rgba(0, 0, 0, 0.25);
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-top: 50px;
 }
 
     .box h3 {
@@ -215,6 +239,8 @@ h2 {
         font-weight: 400;
         letter-spacing: 1px;
         text-align: center;
+        padding-top: 5px;
+        text-decoration: none;
     }
 
 .botao-tipoproduto {
@@ -234,7 +260,7 @@ h2 {
 
 .detalheTipoProduto {
     margin-top: 30px;
-    background-color: #198BAF;
+    background-color: #006E92;
     border-radius: 20px;
 }
 
@@ -271,17 +297,19 @@ h2 {
 .feedback {
     margin-top: 40px;
     position: relative;
+    height: 291px;
 }
 
     .feedback h2 {
-        margin-top: 40px;
+        margin-top: 83px;
         color: #FFF;
         text-align: left;
-        font-size: 29px;
+        font-size: 35px;
         font-style: normal;
-        font-weight: 500;
+        font-weight: 600;
         line-height: 103.4%; /* 29.986px */
-        letter-spacing: 1.45px;
+        letter-spacing: 1.75px;
+
     }
 
     .feedback p {
@@ -289,11 +317,12 @@ h2 {
         margin-bottom: 40px;
         color: #FFF;
         text-align: left;
-        font-size: 15px;
+        font-size: 20px;
         font-style: normal;
-        font-weight: 600;
+        font-weight: 400;
         line-height: 103.4%; /* 15.51px */
-        letter-spacing: 0.75px;
+        letter-spacing: 1px;
+
     }
 
     .containerfeedback {
@@ -308,7 +337,10 @@ h2 {
         top: 0;
         left: 0;
         background-color: #064a61;
-        border-radius: 0 100px 100px 0;
+        border-radius: 0 145px 145px 0;
+        background-size: cover;
+        background-position: center;
+        background-image: url(Imagens/backgroudcomlogoscurvado.jpg);
     }
 
 .feedback-detalhes {
@@ -336,7 +368,32 @@ h2 {
         font-weight: 400;
         letter-spacing: 1px;
         text-align: center;
+        padding-top: 5px;
+        text-decoration: none;
     }
+
+    .comeceCaminhar h2{
+        color: #054A60;
+        font-size: 35px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 103.4%; /* 36.19px */
+        letter-spacing: 1.75px;
+    }
+
+    .comeceCaminhar p{
+        color: #000;
+        padding-top: 25px;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 103.4%; /* 20.68px */
+        letter-spacing: 1px;    
+    }
+
+.entrarcontato{
+    padding-top: 34px;
+}
 
 .footer {
     margin-top: 40px;
@@ -367,12 +424,24 @@ h2 {
         font-weight: 550;
         line-height: 103.4%; /* 29.986px */
         letter-spacing: 1.45px;
+        
     }
 
     .footer p {
-        color: white;
+        color: #FFF;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 200;
+        line-height: 103.4%; /* 15.51px */
+        letter-spacing: 0.75px;
     }
 
     .footer ul {
-        color: white;
+        padding-top: 28px;
+        color: #FFF;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 103.4%; /* 15.51px */
+        letter-spacing: 1px;
     }
